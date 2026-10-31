@@ -13,7 +13,7 @@ export const STEPS = [
 ];
 export const PROMISES = [
   ["Grass fed and grass finished", "Grass and forage birth to harvest. No grain, no corn, no feedlot finish in the last months to bulk them up cheaply."],
-  ["A family, not a call center", "The same person raises the cattle, answers the phone and walks you through the cut sheet. Since 1998."],
+  ["A family, not a call center", "The same person raises the cattle, answers the phone and walks you through the cut sheet. Since 1988."],
   ["No surprises on price", "One honest price per share, shipping included. The deposit comes off the total — it is not an extra charge."],
   ["You can change your mind", "Cancel within 7 days of reserving and the deposit comes straight back, in full, no argument."],
 ];

@@ -4,7 +4,7 @@ import { getShares } from "@/lib/shares";
 import { CLAIMS, PROMISES, STEPS } from "@/lib/copy";
 import { Band, Cards, Eyebrow, Section, ShareCard, Steps, btnLine, btnRed } from "@/components/site";
 
-const TRUST = ["100% grass fed & finished", "No antibiotics", "No pesticides", "Family run since 1998", "Ships nationwide", "Shipping included"];
+const TRUST = ["100% grass fed & finished", "No antibiotics", "No pesticides", "Family run since 1988", "Ships nationwide", "Shipping included"];
 
 export default async function Home() {
   const [s, shares] = await Promise.all([getSettings(), getShares()]);
@@ -17,7 +17,7 @@ export default async function Home() {
         <img src="/img/hero-herd-640.jpeg" alt="Cattle on open pasture" className="absolute inset-0 -z-10 size-full object-cover opacity-60" fetchPriority="high" />
         <div className="mx-auto max-w-5xl px-5 pb-8 pt-16 sm:pt-24">
           <p className="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">{s.heroEyebrow}</p>
-          <h1 className="max-w-xl text-4xl font-bold text-white sm:text-6xl">Beef raised the way nature intended.</h1>
+          <h1 className="max-w-xl text-4xl font-bold text-white sm:text-6xl">Quality Beef, Rooted in Nature.</h1>
           <p className="mt-5 max-w-md text-white/90">Grass fed and grass finished on our family&rsquo;s pasture. Vacuum sealed, flash frozen, and shipped to your door anywhere in the USA.</p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <a href="#shares" className={btnRed}>See the shares</a>
@@ -65,7 +65,7 @@ export default async function Home() {
 
       <Section tone="sand" eyebrow="Our promise" title="What you can hold us to."><Cards items={PROMISES} cols={2} /></Section>
 
-      <Section eyebrow="Our family" title="Three generations on the same grass." intro="We have been raising cattle here since 1998. The way we do it has not changed much, and that is the point.">
+      <Section eyebrow="Our family" title="Three generations on the same grass." intro="We have been raising cattle here since 1988. The way we do it has not changed much, and that is the point.">
         <Link href="/our-story" className={btnLine}>Read our story</Link>
       </Section>
     </>

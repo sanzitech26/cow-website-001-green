@@ -20,7 +20,7 @@ export default async function Settings({ searchParams }: { searchParams: Promise
 
       <section className={`${card} space-y-3`}>
         <h2 className="text-xl font-bold">Store</h2>
-        <T name="storeName" label="Brand name (e.g. Anord's)" v={s.storeName} />
+        <T name="storeName" label="Brand name (e.g. Daniel's Farm)" v={s.storeName} />
         <T name="brandSub" label="Brand subtitle (e.g. Grass Fed Beef Shares)" v={s.brandSub} />
         <T name="tagline" label="Footer description" v={s.tagline} area />
         <T name="heroEyebrow" label="Home hero small line" v={s.heroEyebrow} />

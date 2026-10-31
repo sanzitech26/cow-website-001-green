@@ -16,7 +16,7 @@ async function main() {
 
   if ((await db.select().from(s.categories)).length) return console.log("demo data exists, admin ensured");
 
-  await saveSettings({ phone: "(555) 010-2030", email: "hello@example.com", address: "123 Pasture Lane, Thomasville, GA" });
+  await saveSettings({ phone: "572 200 4412", email: "hello@example.com", address: "7250 E Kildare Rd, Newkirk, OK 74647" });
 
   const cats = await db.insert(s.categories).values([
     { slug: "live-cattle", name: "Live Cattle" },
